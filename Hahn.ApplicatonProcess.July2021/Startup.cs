@@ -1,3 +1,4 @@
+using Hahn.ApplicatonProcess.July2021.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +27,11 @@ namespace Hahn.ApplicatonProcess.July2021
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            services
+                .AddDatabase(Configuration)
+                .AddUnitOfWork()
+                .AddRepositories()
+                .AddBusinessServices();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

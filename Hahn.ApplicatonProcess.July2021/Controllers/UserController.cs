@@ -1,5 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
+using Hahn.ApplicatonProcess.July2021.Web.Services.Users;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 
 namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
 {
@@ -7,5 +11,29 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
+        private readonly UserService _service;
+        private readonly ILogger<UserController> _logger;
+
+        public UserController(ILogger<UserController> logger
+            , UserService service)
+        {
+            _service = service;
+            _logger = logger;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get([FromQuery] GetUserRequest request)
+        {
+            var users = await _service.SearchAsync(request);
+            return Ok(users);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Add([FromBody] AddUserRequest request)
+        {
+            var users = await _service.AddNewAsync(request);
+            return Ok(users);
+        }
+
     }
 }

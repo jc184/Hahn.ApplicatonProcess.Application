@@ -9,6 +9,15 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 {
     public class User : BaseEntity<int>
     {
+        public User(string firstName, string lastName, string address, int age, string email)
+        {
+            FirstName = firstName;
+            LastName = lastName;
+            Address = address;
+            Age = age;
+            Email = email;
+        }
+
         //public int Id { get; set; }
 
         public string FirstName { get; set; }

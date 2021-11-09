@@ -1,6 +1,7 @@
 ﻿namespace Hahn.ApplicatonProcess.July2021.Web.DTOs.Users
 {
-    public class GetUsersList
+    public class GetUserRequest
     {
+        public string Search { get; set; }
     }
 }
