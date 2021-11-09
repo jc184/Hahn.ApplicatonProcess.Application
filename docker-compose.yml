@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hahn.applicatonprocess.july2021.web:
+    image: ${DOCKER_REGISTRY-}hahnapplicatonprocessjuly2021web
+    build:
+      context: .
+      dockerfile: Hahn.ApplicatonProcess.July2021/Dockerfile
