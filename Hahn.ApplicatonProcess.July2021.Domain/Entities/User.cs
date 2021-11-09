@@ -30,7 +30,7 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 
         public string Email { get; set; }
 
-        public Asset[] Assets { get; set; } 
+        public ICollection<Asset> Assets { get; set; }
 
 
     }

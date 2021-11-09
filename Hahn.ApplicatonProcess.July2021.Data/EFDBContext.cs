@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Hahn.ApplicatonProcess.July2021.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,9 @@ namespace Hahn.ApplicatonProcess.July2021.Data
     {
         public EFDBContext(DbContextOptions<EFDBContext> options) : base(options)
         {
+
         }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Asset> Assets { get; set; }
     }
 }

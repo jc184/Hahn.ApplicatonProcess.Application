@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,7 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Base
 
     public abstract class BaseEntity<TKey> : BaseEntity
     {
+        [Key]
         public TKey Id { get; set; }
     }
 }
