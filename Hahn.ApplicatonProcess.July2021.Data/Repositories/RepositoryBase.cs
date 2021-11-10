@@ -41,10 +41,20 @@ namespace Hahn.ApplicatonProcess.July2021.Data.Repositories
             return _dbSet.Where(expression).ToListAsync();
         }
 
+        public Task<List<T>> ListAllAsync()
+        {
+            return _dbSet.ToListAsync();
+        }
+
         public Task<T> UpdateAsync(T entity)
         {
             _dbSet.Update(entity);
             return Task.FromResult(entity);
+        }
+
+        public Task<T> FindAsync(Expression<Func<T, bool>> expression)
+        {
+            return _dbSet.FirstOrDefaultAsync(expression);
         }
     }
 }

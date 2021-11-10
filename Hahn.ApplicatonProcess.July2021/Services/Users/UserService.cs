@@ -40,12 +40,62 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
             return response;
         }
 
+        public async Task<UpdateUserResponse> UpdateAsync(UpdateUserRequest model, int Id)
+        {
+            var entity = await UnitOfWork.AsyncRepository<User>()
+                                .FindAsync(entity => entity.Id == Id);
+
+
+            entity.FirstName = model.FirstName;
+            entity.LastName = model.LastName;
+            entity.Address = model.Address;
+            entity.Email = model.Email;
+            entity.Age = model.Age;
+
+
+            var repository = UnitOfWork.AsyncRepository<User>();
+            await repository.UpdateAsync(entity);
+            await UnitOfWork.SaveChangesAsync();
+
+            var response = new UpdateUserResponse()
+            {
+                Id = entity.Id,
+                FirstName = entity.FirstName,
+                LastName = entity.LastName,
+                Address = entity.Address,
+                Age = entity.Age,
+                Email = entity.Email
+            };
+
+            return response;
+        }
+
 
         public async Task<List<UserInfoDTO>> SearchAsync(GetUserRequest request)
         {
             var repository = UnitOfWork.AsyncRepository<User>();
             var users = await repository
                 .ListAsync(_ => _.Email.Contains(request.Search));
+
+            var userDTOs = users.Select(_ => new UserInfoDTO()
+            {
+                Address = _.Address,
+
+                FirstName = _.FirstName,
+                Id = _.Id,
+                LastName = _.LastName,
+                Email = _.Email,
+                Age = _.Age,
+            })
+            .ToList();
+
+            return userDTOs;
+        }
+
+        public async Task<List<UserInfoDTO>> GetAllAsync(GetAllUsersRequest request)
+        {
+            var repository = UnitOfWork.AsyncRepository<User>();
+            var users = await repository.ListAllAsync();
 
             var userDTOs = users.Select(_ => new UserInfoDTO()
             {

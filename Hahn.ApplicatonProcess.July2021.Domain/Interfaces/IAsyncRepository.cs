@@ -19,5 +19,9 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Interfaces
         Task<T> GetAsync(Expression<Func<T, bool>> expression);
 
         Task<List<T>> ListAsync(Expression<Func<T, bool>> expression);
+
+        Task<List<T>> ListAllAsync();
+
+        Task<T> FindAsync(Expression<Func<T, bool>> expression);
     }
 }

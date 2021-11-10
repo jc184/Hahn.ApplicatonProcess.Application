@@ -21,10 +21,17 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("user")]
         public async Task<IActionResult> Get([FromQuery] GetUserRequest request)
         {
             var users = await _service.SearchAsync(request);
+            return Ok(users);
+        }
+
+        [HttpGet("users")]
+        public async Task<IActionResult> GetAll([FromQuery] GetAllUsersRequest request)
+        {
+            var users = await _service.GetAllAsync(request);
             return Ok(users);
         }
 
@@ -39,6 +46,13 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> Delete(DeleteUserRequest request)
         {
             var users = await _service.DeleteAsync(request);
+            return Ok(users);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateUserRequest request, int Id)
+        {
+            var users = await _service.UpdateAsync(request, Id);
             return Ok(users);
         }
     }
