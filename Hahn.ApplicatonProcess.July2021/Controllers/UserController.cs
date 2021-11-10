@@ -35,5 +35,11 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
             return Ok(users);
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(DeleteUserRequest request)
+        {
+            var users = await _service.DeleteAsync(request);
+            return Ok(users);
+        }
     }
 }

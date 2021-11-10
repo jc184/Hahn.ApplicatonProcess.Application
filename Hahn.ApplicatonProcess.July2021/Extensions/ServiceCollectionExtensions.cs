@@ -33,8 +33,15 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                      options.UseSqlServer(configuration.GetConnectionString("DDDConnectionString")));
         }
 
-        public static IServiceCollection AddBusinessServices(this IServiceCollection services
-           )
+        public static IServiceCollection AddInMemoryDatabase(this IServiceCollection services
+            , IConfiguration configuration)
+        {
+            return services.AddDbContext<EFDBContext>(options =>
+                     options.UseInMemoryDatabase("DDDHahn"));
+
+        }
+
+        public static IServiceCollection AddBusinessServices(this IServiceCollection services)
         {
             return services
                 .AddScoped<UserService>();

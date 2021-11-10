@@ -28,7 +28,7 @@ namespace Hahn.ApplicatonProcess.July2021
         public void ConfigureServices(IServiceCollection services)
         {
             services
-                .AddDatabase(Configuration)
+                .AddInMemoryDatabase(Configuration)
                 .AddUnitOfWork()
                 .AddRepositories()
                 .AddBusinessServices();

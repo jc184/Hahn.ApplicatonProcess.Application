@@ -61,5 +61,22 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
 
             return userDTOs;
         }
+
+        public async Task<DeleteUserResponse> DeleteAsync(DeleteUserRequest request)
+        {
+             
+            var repository = UnitOfWork.AsyncRepository<User>();
+            var user = await repository.GetAsync(_ => _.Id.Equals(request.Id));
+            var users = await repository.DeleteAsync(user);
+            await UnitOfWork.SaveChangesAsync();
+
+            var response = new DeleteUserResponse()
+            {
+                Id = user.Id,
+                Email = user.Email
+            };
+
+            return response;
+        }
     }
 }
