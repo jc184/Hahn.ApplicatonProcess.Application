@@ -32,6 +32,7 @@ namespace Hahn.ApplicatonProcess.July2021
                 .AddUnitOfWork()
                 .AddRepositories()
                 .AddBusinessServices();
+            services.AddScoped<IDbInitializer, DbInitializer>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -48,7 +49,13 @@ namespace Hahn.ApplicatonProcess.July2021
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hahn.ApplicatonProcess.July2021 v1"));
             }
-
+            var scopeFactory = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>();
+            using (var scope = scopeFactory.CreateScope())
+            {
+                var dbInitializer = scope.ServiceProvider.GetService<IDbInitializer>();
+                dbInitializer.Initialize();
+                dbInitializer.SeedData();
+            }
             app.UseHttpsRedirection();
 
             app.UseRouting();

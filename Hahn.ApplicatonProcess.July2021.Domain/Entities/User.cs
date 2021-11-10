@@ -9,6 +9,10 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 {
     public class User : BaseEntity<int>
     {
+        public User()
+        {
+        }
+
         public User(string firstName, string lastName, string address, int age, string email)
         {
             FirstName = firstName;
