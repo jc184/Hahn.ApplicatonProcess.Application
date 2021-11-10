@@ -29,9 +29,9 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         }
 
         [HttpGet("users")]
-        public async Task<IActionResult> GetAll([FromQuery] GetAllUsersRequest request)
+        public async Task<IActionResult> GetAll()
         {
-            var users = await _service.GetAllAsync(request);
+            var users = await _service.GetAllAsync();
             return Ok(users);
         }
 

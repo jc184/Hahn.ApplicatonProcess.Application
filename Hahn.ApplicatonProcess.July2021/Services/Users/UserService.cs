@@ -16,7 +16,6 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
 
         public async Task<AddUserResponse> AddNewAsync(AddUserRequest model)
         {
-            // You can you some mapping tools as such as AutoMapper
             var user = new User(
                  model.FirstName
                 , model.LastName
@@ -80,7 +79,6 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
             var userDTOs = users.Select(_ => new UserInfoDTO()
             {
                 Address = _.Address,
-
                 FirstName = _.FirstName,
                 Id = _.Id,
                 LastName = _.LastName,
@@ -92,7 +90,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
             return userDTOs;
         }
 
-        public async Task<List<UserInfoDTO>> GetAllAsync(GetAllUsersRequest request)
+        public async Task<List<UserInfoDTO>> GetAllAsync()
         {
             var repository = UnitOfWork.AsyncRepository<User>();
             var users = await repository.ListAllAsync();
@@ -100,7 +98,6 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
             var userDTOs = users.Select(_ => new UserInfoDTO()
             {
                 Address = _.Address,
-
                 FirstName = _.FirstName,
                 Id = _.Id,
                 LastName = _.LastName,
