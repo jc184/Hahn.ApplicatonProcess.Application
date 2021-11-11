@@ -22,8 +22,6 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
             Email = email;
         }
 
-        //public int Id { get; set; }
-
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
@@ -35,7 +33,6 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
         public string Email { get; set; }
 
         public ICollection<Asset> Assets { get; set; }
-
 
     }
 }
