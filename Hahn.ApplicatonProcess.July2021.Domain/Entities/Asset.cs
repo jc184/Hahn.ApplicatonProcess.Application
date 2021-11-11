@@ -10,7 +10,6 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 {
     public class Asset : BaseEntity<int>
     {
-        //public int Id { get; set; }
 
         public string Name { get; set; }
 
@@ -18,7 +17,6 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }
-        public User User { get; set; }
 
     }
 }

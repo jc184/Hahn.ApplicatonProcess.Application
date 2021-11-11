@@ -1,4 +1,7 @@
-﻿namespace Hahn.ApplicatonProcess.July2021.Web.DTOs.Users
+﻿using Hahn.ApplicatonProcess.July2021.Domain.Entities;
+using System.Collections.Generic;
+
+namespace Hahn.ApplicatonProcess.July2021.Web.DTOs.Users
 {
     public class GetAllUsersResponse
     {
@@ -13,5 +16,7 @@
         public string Address { get; set; }
 
         public string Email { get; set; }
+
+        public List<Asset> Assets { get; set; }
     }
 }

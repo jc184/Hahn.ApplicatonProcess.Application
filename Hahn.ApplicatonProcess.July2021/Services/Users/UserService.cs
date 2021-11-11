@@ -84,6 +84,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
                 LastName = _.LastName,
                 Email = _.Email,
                 Age = _.Age,
+                Assets = (List<Asset>)_.Assets,
             })
             .ToList();
 
@@ -92,8 +93,14 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
 
         public async Task<List<UserInfoDTO>> GetAllAsync()
         {
+
             var repository = UnitOfWork.AsyncRepository<User>();
-            var users = await repository.ListAllAsync();
+            var users = await repository.GetAllAsync(en => en.Assets).ConfigureAwait(false);
+
+
+            //var repository = UnitOfWork.AsyncRepository<User>();
+            //var users = await repository.ListAllAsync();
+
 
             var userDTOs = users.Select(_ => new UserInfoDTO()
             {
@@ -103,6 +110,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
                 LastName = _.LastName,
                 Email = _.Email,
                 Age = _.Age,
+                Assets = _.Assets.ToList<Asset>(),
             })
             .ToList();
 

@@ -31,6 +31,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// Retrieves a specific user by email
         /// </summary>
         /// <response code="200">User retrieved</response>
+        /// <response code="404">User not found</response>
         [HttpGet("user")]
         public async Task<IActionResult> Get([FromQuery] GetUserRequest request)
         {
@@ -39,7 +40,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         }
 
         /// <summary>
-        /// Retrieves all users
+        /// Retrieves all users with details
         /// </summary>
         /// <response code="200">Users retrieved</response>
         [HttpGet("users")]

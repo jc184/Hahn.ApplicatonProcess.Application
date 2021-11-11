@@ -1,4 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Base;
+using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -44,6 +45,18 @@ namespace Hahn.ApplicatonProcess.July2021.Data.Repositories
         public Task<List<T>> ListAllAsync()
         {
             return _dbSet.ToListAsync();
+        }
+
+        public async Task<IEnumerable<T>> GetAllAsync()
+        {
+            return await _dbSet.ToListAsync().ConfigureAwait(false);
+        }
+
+        public async Task<IEnumerable<T>> GetAllAsync<TProperty>(Expression<Func<T, TProperty>> include)
+        {
+            IQueryable<T> query = _dbSet.Include(include);
+
+            return await query.ToListAsync().ConfigureAwait(false);
         }
 
         public Task<T> UpdateAsync(T entity)

@@ -33,7 +33,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                 using (var context = serviceScope.ServiceProvider.GetService<EFDBContext>())
                 {
 
-                    //add admin user
+                    //add sample users
                     if (!context.Users.Any())
                     {
                         var user1 = new User()
@@ -57,6 +57,47 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                             Email = "john.smith123@gmail.com"
                         };
                         context.Users.Add(user2);
+
+                        var user3 = new User()
+                        {
+                            Id = 3,
+                            FirstName = "joe",
+                            LastName = "bloggs",
+                            Age = 23,
+                            Address = "24 Old Street, Anytown, AT12 4EF",
+                            Email = "john.bloggs321@gmail.com"
+                        };
+                        context.Users.Add(user3);
+                    }
+
+                    if (!context.Assets.Any())
+                    {
+                        var asset1 = new Asset()
+                        {
+                            Id = 1,
+                            Name = "Bicycle",
+                            Symbol = "xyz123",
+                            UserId = 1
+                        };
+                        context.Assets.Add(asset1);
+
+                        var asset2 = new Asset()
+                        {
+                            Id = 2,
+                            Name = "Car",
+                            Symbol = "xyz456",
+                            UserId = 1
+                        };
+                        context.Assets.Add(asset2);
+
+                        var asset3 = new Asset()
+                        {
+                            Id = 3,
+                            Name = "Laptop",
+                            Symbol = "abc123",
+                            UserId = 2
+                        };
+                        context.Assets.Add(asset3); ;
                     }
 
                     context.SaveChanges();

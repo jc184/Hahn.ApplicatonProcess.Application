@@ -18,5 +18,10 @@ namespace Hahn.ApplicatonProcess.July2021.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Asset> Assets { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>().HasMany(s => s.Assets);
+        }
+
     }
 }
