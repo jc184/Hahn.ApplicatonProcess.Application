@@ -10,6 +10,16 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 {
     public class Asset : BaseEntity<int>
     {
+        public Asset()
+        {
+        }
+
+        public Asset(string name, string symbol, int userId)
+        {
+            Name = name;
+            Symbol = symbol;
+            UserId = userId;
+        }
 
         public string Name { get; set; }
 

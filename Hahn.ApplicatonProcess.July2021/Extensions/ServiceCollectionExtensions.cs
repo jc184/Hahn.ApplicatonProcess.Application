@@ -4,6 +4,7 @@ using Hahn.ApplicatonProcess.July2021.Domain.Assets;
 using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Domain.Interfaces;
 using Hahn.ApplicatonProcess.July2021.Domain.Users;
+using Hahn.ApplicatonProcess.July2021.Web.Services.Assets;
 using Hahn.ApplicatonProcess.July2021.Web.Services.Users;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -45,7 +46,8 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
         public static IServiceCollection AddBusinessServices(this IServiceCollection services)
         {
             return services
-                .AddScoped<UserService>();
+                .AddScoped<UserService>()
+                .AddScoped<AssetsService>();
         }
 
     }

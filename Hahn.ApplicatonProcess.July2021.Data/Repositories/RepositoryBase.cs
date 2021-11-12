@@ -69,5 +69,6 @@ namespace Hahn.ApplicatonProcess.July2021.Data.Repositories
         {
             return _dbSet.FirstOrDefaultAsync(expression);
         }
+
     }
 }
