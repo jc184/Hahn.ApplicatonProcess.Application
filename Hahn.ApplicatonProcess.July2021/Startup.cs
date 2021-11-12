@@ -1,3 +1,4 @@
+using FluentValidation.AspNetCore;
 using Hahn.ApplicatonProcess.July2021.Web.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -40,7 +41,11 @@ namespace Hahn.ApplicatonProcess.July2021
             services.AddControllersWithViews()
                 .AddNewtonsoftJson(options =>
                      options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
-);
+                );
+            services.AddFluentValidation(v =>
+            {
+                v.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Hahn.ApplicatonProcess.July2021", Version = "v1" });
