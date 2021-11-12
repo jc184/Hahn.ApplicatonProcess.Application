@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
 {
+    /// <summary>
+    /// Assets Controller
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class AssetsController : ControllerBase
@@ -55,6 +58,28 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> GetAll()
         {
             var assets = await _service.GetAllAsync();
+            return Ok(assets);
+        }
+
+        /// <summary>
+        /// Deletes an asset
+        /// </summary>
+        /// <response code="204">Asset deleted</response>
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(DeleteAssetRequest request)
+        {
+            var assets = await _service.DeleteAsync(request);
+            return Ok(assets);
+        }
+
+        /// <summary>
+        /// Updates an asset
+        /// </summary>
+        /// <response code="200">Asset updated</response>
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, int Id)
+        {
+            var assets = await _service.UpdateAsync(request, Id);
             return Ok(assets);
         }
     }

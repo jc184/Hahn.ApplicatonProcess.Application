@@ -1,6 +1,7 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Domain.Interfaces;
 using Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets;
+using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,7 +72,50 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             return assetDTOs;
         }
 
+        public async Task<DeleteAssetResponse> DeleteAsync(DeleteAssetRequest request)
+        {
 
+            var repository = UnitOfWork.AsyncRepository<Asset>();
+            var asset = await repository.GetAsync(_ => _.Id.Equals(request.Id));
+            var assets = await repository.DeleteAsync(asset);
+            await UnitOfWork.SaveChangesAsync();
+
+            var response = new DeleteAssetResponse()
+            {
+               Id = asset.Id,
+               Name = asset.Name,
+               Symbol = asset.Symbol,
+               UserId = asset.UserId,
+            };
+
+            return response;
+        }
+
+        public async Task<UpdateAssetResponse> UpdateAsync(UpdateAssetRequest model, int Id)
+        {
+            var entity = await UnitOfWork.AsyncRepository<Asset>()
+                                .FindAsync(entity => entity.Id == Id);
+
+
+            entity.Name = model.Name;
+            entity.Symbol = model.Symbol;
+            entity.UserId = model.UserId;
+
+
+            var repository = UnitOfWork.AsyncRepository<Asset>();
+            await repository.UpdateAsync(entity);
+            await UnitOfWork.SaveChangesAsync();
+
+            var response = new UpdateAssetResponse()
+            {
+                Id = entity.Id,
+                Name = entity.Name,
+                Symbol = entity.Symbol,
+                UserId = entity.UserId,
+            };
+
+            return response;
+        }
 
     }
 }
