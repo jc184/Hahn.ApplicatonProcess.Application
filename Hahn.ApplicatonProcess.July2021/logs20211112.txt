@@ -1,0 +1,31 @@
+2021-11-12 14:29:19.712 +00:00 [INF] Starting Web Host
+2021-11-12 14:29:22.972 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-12 14:29:23.881 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-12 14:29:23.891 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-12 14:29:23.916 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-12 14:29:24.217 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-12 14:29:25.038 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-12 14:29:25.041 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-12 14:29:25.047 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-12 14:29:25.049 +00:00 [INF] Hosting environment: Development
+2021-11-12 14:29:25.052 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-12 14:29:26.707 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-12 14:29:27.593 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 893.3169ms
+2021-11-12 14:29:27.650 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-12 14:29:27.661 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-12 14:29:27.723 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 62.1440ms
+2021-11-12 14:29:27.736 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-12 14:29:27.757 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 106.8031ms
+2021-11-12 14:29:27.956 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-11-12 14:29:27.965 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-11-12 14:29:27.977 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 0 628 image/png 21.2983ms
+2021-11-12 14:29:28.132 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-12 14:29:28.371 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.9071ms
+2021-11-12 14:29:36.863 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=BTC - -
+2021-11-12 14:29:36.899 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-12 14:29:36.941 +00:00 [INF] Route matched with {action = "Get", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.GetAssetListRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-12 14:29:37.012 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-12 14:29:37.108 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-12 14:29:37.280 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web) in 327.4151ms
+2021-11-12 14:29:37.282 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-12 14:29:37.286 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=BTC - - - 200 53 application/json;+charset=utf-8 423.3438ms

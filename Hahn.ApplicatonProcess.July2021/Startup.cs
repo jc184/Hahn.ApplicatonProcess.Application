@@ -51,7 +51,15 @@ namespace Hahn.ApplicatonProcess.July2021
                 //... and tell Swagger to use those XML comments.
                 c.IncludeXmlComments(xmlPath);
             });
-            
+
+            services.AddLogging(
+                builder =>
+                {
+                    builder.AddFilter("Microsoft", LogLevel.Information)
+                            .AddFilter("System", LogLevel.Error)
+                            .AddConsole();
+                });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

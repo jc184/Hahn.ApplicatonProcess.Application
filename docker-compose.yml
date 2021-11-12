@@ -6,3 +6,4 @@ services:
     build:
       context: .
       dockerfile: Hahn.ApplicatonProcess.July2021/Dockerfile
+
