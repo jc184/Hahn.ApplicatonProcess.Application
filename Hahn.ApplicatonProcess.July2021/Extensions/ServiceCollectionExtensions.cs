@@ -22,6 +22,17 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                 .AddScoped<IAssetRepository, AssetRepository>();
         }
 
+        public static void ConfigureCors(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
+        }
+
         public static IServiceCollection AddUnitOfWork(this IServiceCollection services)
         {
             return services
