@@ -60,7 +60,7 @@ namespace Hahn.ApplicatonProcess.July2021
                     Description = "DDD ASP.NET Core Web API",
                     Contact = new OpenApiContact
                     {
-                        Name = "DDD ASP.NET Core Web API",
+                        Name = "james chalmers",
                         Email = "james.chalmers184@gmail.com",
                         Url = new Uri("https://www.linkedin.com/in/james-chalmers-a47a85a6/"),
                     },
