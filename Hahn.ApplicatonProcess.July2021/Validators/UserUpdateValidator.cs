@@ -1,13 +1,12 @@
 ﻿using FluentValidation;
-using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
 
 namespace Hahn.ApplicatonProcess.July2021.Web.Validators
 {
 
-    public class UserValidator : AbstractValidator<AddUserRequest>
+    public class UserUpdateValidator : AbstractValidator<UpdateUserRequest>
     {
-        public UserValidator()
+        public UserUpdateValidator()
         {
             RuleFor(x => x.FirstName).NotNull().NotEmpty().WithMessage("First Name is required.");
             RuleFor(x => x.LastName).NotNull().NotEmpty().WithMessage("Last Name is required.");

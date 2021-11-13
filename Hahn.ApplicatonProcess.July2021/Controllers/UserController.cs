@@ -58,8 +58,14 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> Add([FromBody] AddUserRequest request)
         {
             var users = await _service.AddNewAsync(request);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
             return Ok(users);
         }
+
+        
 
         /// <summary>
         /// Deletes a user
