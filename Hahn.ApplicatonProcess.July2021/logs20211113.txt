@@ -280,3 +280,136 @@
 2021-11-13 11:49:07.092 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web) in 304.5199ms
 2021-11-13 11:49:07.095 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
 2021-11-13 11:49:07.098 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=BTC - - - 200 61 application/json;+charset=utf-8 389.2893ms
+2021-11-13 11:52:43.555 +00:00 [INF] Starting Web Host
+2021-11-13 11:52:45.294 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-13 11:52:46.706 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 11:52:46.722 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-13 11:52:46.750 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 11:52:47.153 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-13 11:52:47.791 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-13 11:52:47.793 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-13 11:52:47.795 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-13 11:52:47.797 +00:00 [INF] Hosting environment: Development
+2021-11-13 11:52:47.800 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-13 11:52:50.049 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-13 11:52:50.547 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 501.2624ms
+2021-11-13 11:52:50.606 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-13 11:52:50.620 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-13 11:52:50.635 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 15.2285ms
+2021-11-13 11:52:50.647 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-13 11:52:50.649 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 43.3366ms
+2021-11-13 11:52:50.901 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-13 11:52:51.082 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.0159ms
+2021-11-13 12:35:57.243 +00:00 [INF] Starting Web Host
+2021-11-13 12:35:58.629 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-13 12:35:59.266 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 12:35:59.272 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-13 12:35:59.282 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 12:35:59.486 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-13 12:35:59.902 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-13 12:35:59.903 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-13 12:35:59.903 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-13 12:35:59.903 +00:00 [INF] Hosting environment: Development
+2021-11-13 12:35:59.903 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-13 12:37:09.452 +00:00 [INF] Application is shutting down...
+2021-11-13 13:05:28.314 +00:00 [INF] Starting Web Host
+2021-11-13 13:05:30.291 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+2021-11-13 13:05:30.298 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-11-13 13:05:30.357 +00:00 [INF] Creating key {a0520d3b-8317-40fd-95a1-9741fe34c15d} with creation date 2021-11-13 13:05:30Z, activation date 2021-11-13 13:05:30Z, and expiration date 2022-02-11 13:05:30Z.
+2021-11-13 13:05:30.406 +00:00 [WRN] No XML encryptor configured. Key {a0520d3b-8317-40fd-95a1-9741fe34c15d} may be persisted to storage in unencrypted form.
+2021-11-13 13:05:30.422 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-a0520d3b-8317-40fd-95a1-9741fe34c15d.xml'.
+2021-11-13 13:05:31.281 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:05:31.293 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-13 13:05:31.317 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:05:31.656 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-13 13:05:32.454 +00:00 [INF] Now listening on: https://[::]:443
+2021-11-13 13:05:32.459 +00:00 [INF] Now listening on: http://[::]:80
+2021-11-13 13:05:32.463 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-13 13:05:32.467 +00:00 [INF] Hosting environment: Development
+2021-11-13 13:05:32.474 +00:00 [INF] Content root path: /app
+2021-11-13 13:05:45.212 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger - -
+2021-11-13 13:05:45.347 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger - - - 301 0 - 137.8836ms
+2021-11-13 13:05:45.378 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger/index.html - -
+2021-11-13 13:05:45.480 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger/index.html - - - 200 - text/html;charset=utf-8 102.2636ms
+2021-11-13 13:05:45.542 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger/swagger-ui.css - -
+2021-11-13 13:05:45.560 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger/swagger-ui-bundle.js - -
+2021-11-13 13:05:45.565 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger/swagger-ui-standalone-preset.js - -
+2021-11-13 13:05:45.857 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-13 13:05:45.857 +00:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-11-13 13:05:45.870 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger/swagger-ui.css - - - 200 142933 text/css 327.9029ms
+2021-11-13 13:05:45.875 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 310.0602ms
+2021-11-13 13:05:46.026 +00:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-11-13 13:05:46.031 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 471.0980ms
+2021-11-13 13:05:46.227 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger/favicon-32x32.png - -
+2021-11-13 13:05:46.237 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-11-13 13:05:46.245 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger/favicon-32x32.png - - - 200 628 image/png 15.4471ms
+2021-11-13 13:05:46.344 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/swagger/v1/swagger.json - -
+2021-11-13 13:05:46.533 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 188.8641ms
+2021-11-13 13:06:19.381 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/api/Assets/asset?Search=BTC - -
+2021-11-13 13:06:19.426 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:06:19.472 +00:00 [INF] Route matched with {action = "Get", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.GetAssetListRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-13 13:06:19.562 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:06:19.641 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-13 13:06:19.789 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web) in 308.1756ms
+2021-11-13 13:06:19.792 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:06:19.798 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/api/Assets/asset?Search=BTC - - - 200 61 application/json;+charset=utf-8 416.3568ms
+2021-11-13 13:06:32.359 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/api/Assets/assets - -
+2021-11-13 13:06:32.368 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:06:32.385 +00:00 [INF] Route matched with {action = "GetAll", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-13 13:06:32.392 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:06:32.422 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-13 13:06:32.428 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web) in 39.0695ms
+2021-11-13 13:06:32.432 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:06:32.436 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/api/Assets/assets - - - 200 188 application/json;+charset=utf-8 77.2412ms
+2021-11-13 13:06:55.400 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/api/User/user?Search=james.chalmers184%40gmail.com - -
+2021-11-13 13:06:55.425 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:06:55.433 +00:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.GetUserRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-13 13:06:55.442 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:06:55.459 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.UserInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-13 13:06:55.472 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Get (Hahn.ApplicatonProcess.July2021.Web) in 35.4037ms
+2021-11-13 13:06:55.478 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:06:55.484 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/api/User/user?Search=james.chalmers184%40gmail.com - - - 200 161 application/json;+charset=utf-8 81.6956ms
+2021-11-13 13:07:15.375 +00:00 [INF] Request starting HTTP/2 GET https://localhost:54963/api/User/users - -
+2021-11-13 13:07:15.380 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:07:15.389 +00:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-13 13:07:15.395 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:07:15.452 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.UserInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-13 13:07:15.459 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web) in 66.9333ms
+2021-11-13 13:07:15.461 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:07:15.466 +00:00 [INF] Request finished HTTP/2 GET https://localhost:54963/api/User/users - - - 200 640 application/json;+charset=utf-8 90.6351ms
+2021-11-13 13:13:49.060 +00:00 [INF] Starting Web Host
+2021-11-13 13:13:51.102 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-13 13:13:52.163 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:13:52.175 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-13 13:13:52.234 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:13:52.546 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-13 13:13:53.199 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-13 13:13:53.200 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-13 13:13:53.203 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-13 13:13:53.204 +00:00 [INF] Hosting environment: Development
+2021-11-13 13:13:53.206 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-13 13:14:06.111 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-13 13:14:09.856 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 3748.8056ms
+2021-11-13 13:14:09.959 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-13 13:14:09.997 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-13 13:14:10.008 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 48.7781ms
+2021-11-13 13:14:10.012 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-13 13:14:10.032 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 20.3200ms
+2021-11-13 13:14:10.610 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-13 13:14:10.891 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 281.3648ms
+2021-11-13 13:14:30.130 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/User/user?Search=james.chalmers184%40gmail.com - -
+2021-11-13 13:14:30.171 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:14:30.212 +00:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.GetUserRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-13 13:14:30.309 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:14:30.398 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.UserInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-13 13:14:30.569 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Get (Hahn.ApplicatonProcess.July2021.Web) in 350.2956ms
+2021-11-13 13:14:30.571 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:14:30.574 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/User/user?Search=james.chalmers184%40gmail.com - - - 200 147 application/json;+charset=utf-8 443.9932ms
+2021-11-13 13:14:36.572 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/User/users - -
+2021-11-13 13:14:36.576 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:14:36.581 +00:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-13 13:14:36.586 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 13:14:36.649 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.GetAllUsersResponse, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-13 13:14:36.661 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web) in 77.6248ms
+2021-11-13 13:14:36.663 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-13 13:14:36.665 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/User/users - - - 200 640 application/json;+charset=utf-8 92.4589ms

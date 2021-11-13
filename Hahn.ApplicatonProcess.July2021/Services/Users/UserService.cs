@@ -90,13 +90,13 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
             return userDTOs;
         }
 
-        public async Task<List<UserInfoDTO>> GetAllAsync()
+        public async Task<List<GetAllUsersResponse>> GetAllAsync()
         {
 
             var repository = UnitOfWork.AsyncRepository<User>();
             var users = await repository.GetAllAsync(en => en.Assets).ConfigureAwait(false);
 
-            var userDTOs = users.Select(_ => new UserInfoDTO()
+            var userDTOs = users.Select(_ => new GetAllUsersResponse()
             {
                 Address = _.Address,
                 FirstName = _.FirstName,

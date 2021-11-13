@@ -17,7 +17,6 @@ namespace Hahn.ApplicatonProcess.July2021.Web.DTOs.Users
 
         public string Email { get; set; }
 
-        public List<Asset> Assets { get; set; }
 
     }
 }

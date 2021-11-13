@@ -97,7 +97,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                             Symbol = "BNB",
                             UserId = 2
                         };
-                        context.Assets.Add(asset3); ;
+                        context.Assets.Add(asset3);
                     }
 
                     context.SaveChanges();
