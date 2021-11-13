@@ -74,7 +74,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                     {
                         var asset1 = new Asset()
                         {
-                            Id = 1,
+                            Id = "bitcoin",
                             Name = "bitcoin",
                             Symbol = "BTC",
                             UserId = 1
@@ -83,7 +83,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
 
                         var asset2 = new Asset()
                         {
-                            Id = 2,
+                            Id = "ethereum",
                             Name = "Ethereum",
                             Symbol = "ETH",
                             UserId = 1
@@ -92,7 +92,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
 
                         var asset3 = new Asset()
                         {
-                            Id = 3,
+                            Id = "binance",
                             Name = "Binance Coin",
                             Symbol = "BNB",
                             UserId = 2

@@ -94,7 +94,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
         public async Task<UpdateAssetResponse> UpdateAsync(UpdateAssetRequest model, int Id)
         {
             var entity = await UnitOfWork.AsyncRepository<Asset>()
-                                .FindAsync(entity => entity.Id == Id);
+                                .FindAsync(entity => entity.Id.Equals(Id));
 
 
             entity.Name = model.Name;

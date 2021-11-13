@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 {
-    public class Asset : BaseEntity<int>
+    public class Asset : BaseEntity<string>
     {
         public Asset()
         {

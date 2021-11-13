@@ -54,6 +54,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// Creates a new user
         /// </summary>
         /// <response code="201">Users added</response>
+        /// <response code="400">Bad Request</response>
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] AddUserRequest request)
         {
@@ -82,10 +83,15 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// Updates a user
         /// </summary>
         /// <response code="200">User updated</response>
+        /// <response code="400">Bad Request</response>
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateUserRequest request, int Id)
         {
             var users = await _service.UpdateAsync(request, Id);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
             return Ok(users);
         }
     }

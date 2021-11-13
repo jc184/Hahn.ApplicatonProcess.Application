@@ -200,3 +200,35 @@
 2021-11-13 10:28:01.295 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Update (Hahn.ApplicatonProcess.July2021.Web) in 348.0215ms
 2021-11-13 10:28:01.297 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.Update (Hahn.ApplicatonProcess.July2021.Web)'
 2021-11-13 10:28:01.300 +00:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/User?Id=1 application/json-patch+json 86 - 400 298 application/problem+json;+charset=utf-8 458.1079ms
+2021-11-13 10:37:30.151 +00:00 [INF] Starting Web Host
+2021-11-13 10:37:32.057 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-13 10:37:33.204 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 10:37:33.220 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-13 10:37:33.257 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 10:37:33.702 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-13 10:37:34.395 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-13 10:37:34.397 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-13 10:37:34.399 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-13 10:37:34.400 +00:00 [INF] Hosting environment: Development
+2021-11-13 10:37:34.402 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-13 10:37:36.656 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-13 10:38:01.075 +00:00 [INF] Starting Web Host
+2021-11-13 10:38:02.675 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-13 10:38:03.996 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 10:38:04.011 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-13 10:38:04.047 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-13 10:38:04.544 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-13 10:38:05.284 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-13 10:38:05.286 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-13 10:38:05.289 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-13 10:38:05.292 +00:00 [INF] Hosting environment: Development
+2021-11-13 10:38:05.294 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-13 10:38:07.242 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-13 10:38:07.603 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 365.5857ms
+2021-11-13 10:38:07.703 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-13 10:38:07.708 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-13 10:38:07.719 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 10.6310ms
+2021-11-13 10:38:07.732 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-13 10:38:07.737 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 34.7989ms
+2021-11-13 10:38:07.963 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-13 10:38:08.130 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.8588ms
