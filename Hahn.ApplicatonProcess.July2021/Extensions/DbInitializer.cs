@@ -70,6 +70,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                         context.Users.Add(user3);
                     }
 
+                    // Add sample assets
                     if (!context.Assets.Any())
                     {
                         var asset1 = new Asset()

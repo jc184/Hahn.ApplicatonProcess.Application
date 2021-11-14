@@ -18,7 +18,8 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
         public async Task<AddAssetResponse> AddNewAsync(AddAssetRequest model)
         {
             var asset = new Asset(
-                 model.Name
+                model.AssetId
+                , model.Name
                 , model.Symbol
                 , model.UserId);
 
@@ -91,7 +92,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             return response;
         }
 
-        public async Task<UpdateAssetResponse> UpdateAsync(UpdateAssetRequest model, int Id)
+        public async Task<UpdateAssetResponse> UpdateAsync(UpdateAssetRequest model, string Id)
         {
             var entity = await UnitOfWork.AsyncRepository<Asset>()
                                 .FindAsync(entity => entity.Id.Equals(Id));

@@ -1,0 +1,264 @@
+2021-11-14 16:57:29.613 +00:00 [INF] Starting Web Host
+2021-11-14 16:57:32.282 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-14 16:57:33.316 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 16:57:33.326 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-14 16:57:33.349 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 16:57:33.662 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-14 16:57:34.386 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-14 16:57:34.389 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-14 16:57:34.391 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-14 16:57:34.393 +00:00 [INF] Hosting environment: Development
+2021-11-14 16:57:34.395 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-14 16:57:43.889 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-14 16:57:45.956 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 2070.6213ms
+2021-11-14 16:57:46.059 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-14 16:57:46.123 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-14 16:57:46.132 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 9.0362ms
+2021-11-14 16:57:46.144 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-14 16:57:46.149 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 90.3174ms
+2021-11-14 16:57:46.422 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-14 16:57:46.578 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 156.1639ms
+2021-11-14 16:59:27.863 +00:00 [INF] Starting Web Host
+2021-11-14 16:59:29.901 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-14 16:59:31.431 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 16:59:31.449 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-14 16:59:31.477 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 16:59:31.875 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-14 16:59:32.701 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-14 16:59:32.703 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-14 16:59:32.706 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-14 16:59:32.708 +00:00 [INF] Hosting environment: Development
+2021-11-14 16:59:32.710 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-14 16:59:42.896 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-14 16:59:43.351 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 457.8658ms
+2021-11-14 16:59:44.502 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-14 16:59:44.532 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-14 16:59:44.638 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 156.1222ms
+2021-11-14 16:59:44.663 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-14 16:59:44.685 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 153.7286ms
+2021-11-14 16:59:44.687 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2021-11-14 16:59:44.728 +00:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-11-14 16:59:44.731 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 0 628 image/png 44.5170ms
+2021-11-14 16:59:44.796 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-14 16:59:45.012 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 215.7194ms
+2021-11-14 17:01:07.451 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Assets application/json 66
+2021-11-14 17:01:07.488 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:01:07.516 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:01:07.600 +00:00 [INF] Route matched with {action = "Add", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:01:07.896 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:01:08.113 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web) in 506.7153ms
+2021-11-14 17:01:08.116 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:01:08.119 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to track an entity of type 'Asset' because its primary key property 'Id' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityStateAsync(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintActionAsync(EntityEntryGraphNode`1 node, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddAsync(TEntity entity, CancellationToken cancellationToken)
+   at Hahn.ApplicatonProcess.July2021.Data.Repositories.RepositoryBase`1.AddAsync(T entity) in C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021.Data\Repositories\RepositoryBase.cs:line 25
+   at Hahn.ApplicatonProcess.July2021.Web.Services.Assets.AssetsService.AddNewAsync(AddAssetRequest model) in C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021\Services\Assets\AssetsService.cs:line 26
+   at Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add(AddAssetRequest request) in C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021\Controllers\AssetsController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-14 17:01:08.509 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Assets application/json 66 - 500 - text/plain 1057.7443ms
+2021-11-14 17:14:52.400 +00:00 [INF] Starting Web Host
+2021-11-14 17:14:58.022 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-14 17:14:58.981 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:14:58.993 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-14 17:14:59.019 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:14:59.416 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-14 17:15:00.261 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-14 17:15:00.263 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-14 17:15:00.282 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-14 17:15:00.285 +00:00 [INF] Hosting environment: Development
+2021-11-14 17:15:00.289 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-14 17:15:02.415 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-14 17:15:02.776 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 362.7547ms
+2021-11-14 17:15:02.857 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-14 17:15:02.857 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-14 17:15:02.881 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 23.9746ms
+2021-11-14 17:15:02.900 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-14 17:15:02.906 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 49.4503ms
+2021-11-14 17:15:03.143 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-14 17:15:03.356 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 213.1725ms
+2021-11-14 17:15:39.807 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66
+2021-11-14 17:15:39.858 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:15:39.863 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:15:39.896 +00:00 [INF] Route matched with {action = "Add", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:15:40.159 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:15:40.359 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web) in 456.2026ms
+2021-11-14 17:15:40.363 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:15:40.367 +00:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to track an entity of type 'Asset' because its primary key property 'Id' is null.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityStateAsync(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintActionAsync(EntityEntryGraphNode`1 node, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddAsync(TEntity entity, CancellationToken cancellationToken)
+   at Hahn.ApplicatonProcess.July2021.Data.Repositories.RepositoryBase`1.AddAsync(T entity) in C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021.Data\Repositories\RepositoryBase.cs:line 25
+   at Hahn.ApplicatonProcess.July2021.Web.Services.Assets.AssetsService.AddNewAsync(AddAssetRequest model) in C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021\Services\Assets\AssetsService.cs:line 26
+   at Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add(AddAssetRequest request) in C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021\Controllers\AssetsController.cs:line 49
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-11-14 17:15:40.464 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66 - 500 - text/plain 657.5496ms
+2021-11-14 17:20:34.339 +00:00 [INF] Starting Web Host
+2021-11-14 17:20:40.797 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-14 17:20:42.029 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:20:42.043 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-14 17:20:42.075 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:20:42.494 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-14 17:20:43.249 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-14 17:20:43.251 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-14 17:20:43.255 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-14 17:20:43.257 +00:00 [INF] Hosting environment: Development
+2021-11-14 17:20:43.260 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-14 17:20:45.353 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-14 17:20:45.710 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 359.5708ms
+2021-11-14 17:20:45.813 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2021-11-14 17:20:45.827 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-14 17:20:45.838 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 10.6707ms
+2021-11-14 17:20:45.867 +00:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-11-14 17:20:45.874 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 0 142933 text/css 61.0015ms
+2021-11-14 17:20:46.203 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-14 17:20:46.414 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 210.8516ms
+2021-11-14 17:21:21.251 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66
+2021-11-14 17:21:21.295 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:21:21.299 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:21:21.333 +00:00 [INF] Route matched with {action = "Add", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:21:21.604 +00:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-11-14 17:21:21.697 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web) in 356.8727ms
+2021-11-14 17:21:21.700 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:21:21.705 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66 - 400 295 application/problem+json;+charset=utf-8 453.1226ms
+2021-11-14 17:21:43.745 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66
+2021-11-14 17:21:43.748 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:21:43.751 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:21:43.754 +00:00 [INF] Route matched with {action = "Add", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:21:43.805 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:21:43.828 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-11-14 17:21:43.832 +00:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetResponse'.
+2021-11-14 17:21:43.837 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web) in 80.0757ms
+2021-11-14 17:21:43.840 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:21:43.842 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66 - 200 61 application/json;+charset=utf-8 97.1133ms
+2021-11-14 17:21:58.372 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/User/users - -
+2021-11-14 17:21:58.375 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:21:58.379 +00:00 [INF] Route matched with {action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:21:58.384 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:21:58.506 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Users.GetAllUsersResponse, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-14 17:21:58.513 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web) in 131.7344ms
+2021-11-14 17:21:58.516 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.UserController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:21:58.518 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/User/users - - - 200 702 application/json;+charset=utf-8 145.8092ms
+2021-11-14 17:25:44.733 +00:00 [INF] Starting Web Host
+2021-11-14 17:25:46.659 +00:00 [INF] User profile is available. Using 'C:\Users\james\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-11-14 17:25:48.085 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:25:48.102 +00:00 [INF] Saved 0 entities to in-memory store.
+2021-11-14 17:25:48.136 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:25:48.749 +00:00 [INF] Saved 6 entities to in-memory store.
+2021-11-14 17:25:49.662 +00:00 [INF] Now listening on: https://localhost:5001
+2021-11-14 17:25:49.664 +00:00 [INF] Now listening on: http://localhost:5000
+2021-11-14 17:25:49.668 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-11-14 17:25:49.672 +00:00 [INF] Hosting environment: Development
+2021-11-14 17:25:49.674 +00:00 [INF] Content root path: C:\Users\james\OneDrive\DotNET Core Projects\Hahn.ApplicatonProcess.July2021\Hahn.ApplicatonProcess.July2021
+2021-11-14 17:25:51.985 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2021-11-14 17:25:52.636 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 652.0213ms
+2021-11-14 17:25:52.737 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2021-11-14 17:25:52.760 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11969 application/javascript;+charset=utf-8 23.3910ms
+2021-11-14 17:25:53.085 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-11-14 17:25:53.266 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 180.3345ms
+2021-11-14 17:26:25.179 +00:00 [INF] Request starting HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66
+2021-11-14 17:26:25.220 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:26:25.226 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:26:25.280 +00:00 [INF] Route matched with {action = "Add", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:26:25.575 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:26:25.596 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-11-14 17:26:25.607 +00:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AddAssetResponse'.
+2021-11-14 17:26:25.649 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web) in 360.1312ms
+2021-11-14 17:26:25.651 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Add (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:26:25.654 +00:00 [INF] Request finished HTTP/2 POST https://localhost:5001/api/Assets application/json-patch+json 66 - 200 61 application/json;+charset=utf-8 474.8952ms
+2021-11-14 17:26:47.312 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=DOG - -
+2021-11-14 17:26:47.320 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:26:47.328 +00:00 [INF] Route matched with {action = "Get", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.GetAssetListRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:26:47.341 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:26:47.415 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-14 17:26:47.426 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web) in 95.7475ms
+2021-11-14 17:26:47.428 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:26:47.431 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=DOG - - - 200 63 application/json;+charset=utf-8 119.1239ms
+2021-11-14 17:27:54.275 +00:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Assets?Id=dogecoin application/json-patch+json 45
+2021-11-14 17:27:54.278 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:27:54.281 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Update (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:27:54.286 +00:00 [INF] Route matched with {action = "Update", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.UpdateAssetRequest, System.String) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:27:54.302 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:27:54.333 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-11-14 17:27:54.335 +00:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.UpdateAssetResponse'.
+2021-11-14 17:27:54.338 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Update (Hahn.ApplicatonProcess.July2021.Web) in 49.8291ms
+2021-11-14 17:27:54.341 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Update (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:27:54.343 +00:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Assets?Id=dogecoin application/json-patch+json 45 - 200 61 application/json;+charset=utf-8 68.3653ms
+2021-11-14 17:28:49.160 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Assets/assets - -
+2021-11-14 17:28:49.165 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:28:49.171 +00:00 [INF] Route matched with {action = "GetAll", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:28:49.174 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:28:49.182 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-14 17:28:49.184 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web) in 11.6263ms
+2021-11-14 17:28:49.187 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:28:49.189 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Assets/assets - - - 200 250 application/json;+charset=utf-8 29.1213ms
+2021-11-14 17:29:48.844 +00:00 [INF] Request starting HTTP/2 PUT https://localhost:5001/api/Assets?Id=dogecoin application/json-patch+json 45
+2021-11-14 17:29:48.847 +00:00 [INF] CORS policy execution successful.
+2021-11-14 17:29:48.849 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Update (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:29:48.853 +00:00 [INF] Route matched with {action = "Update", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.UpdateAssetRequest, System.String) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:29:48.857 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:29:48.865 +00:00 [INF] Saved 1 entities to in-memory store.
+2021-11-14 17:29:48.869 +00:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.UpdateAssetResponse'.
+2021-11-14 17:29:48.871 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Update (Hahn.ApplicatonProcess.July2021.Web) in 15.8537ms
+2021-11-14 17:29:48.873 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Update (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:29:48.875 +00:00 [INF] Request finished HTTP/2 PUT https://localhost:5001/api/Assets?Id=dogecoin application/json-patch+json 45 - 200 61 application/json;+charset=utf-8 31.4838ms
+2021-11-14 17:30:04.401 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=DOG - -
+2021-11-14 17:30:04.404 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:30:04.407 +00:00 [INF] Route matched with {action = "Get", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.GetAssetListRequest) on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:30:04.410 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:30:04.413 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-14 17:30:04.416 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web) in 6.5903ms
+2021-11-14 17:30:04.418 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.Get (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:30:04.423 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Assets/asset?Search=DOG - - - 200 63 application/json;+charset=utf-8 22.0295ms
+2021-11-14 17:30:21.445 +00:00 [INF] Request starting HTTP/2 GET https://localhost:5001/api/Assets/assets - -
+2021-11-14 17:30:21.447 +00:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:30:21.449 +00:00 [INF] Route matched with {action = "GetAll", controller = "Assets"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController (Hahn.ApplicatonProcess.July2021.Web).
+2021-11-14 17:30:21.452 +00:00 [INF] Entity Framework Core 5.0.12 initialized 'EFDBContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=DDDHahn 
+2021-11-14 17:30:21.454 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets.AssetInfoDTO, Hahn.ApplicatonProcess.July2021.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-11-14 17:30:21.456 +00:00 [INF] Executed action Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web) in 4.6229ms
+2021-11-14 17:30:21.459 +00:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.July2021.Web.Controllers.AssetsController.GetAll (Hahn.ApplicatonProcess.July2021.Web)'
+2021-11-14 17:30:21.462 +00:00 [INF] Request finished HTTP/2 GET https://localhost:5001/api/Assets/assets - - - 200 250 application/json;+charset=utf-8 16.3838ms

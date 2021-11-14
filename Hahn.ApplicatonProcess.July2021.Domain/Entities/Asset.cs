@@ -1,6 +1,7 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Base;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -14,12 +15,17 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
         {
         }
 
-        public Asset(string name, string symbol, int userId)
+        public Asset(string id, string name, string symbol, int userId)
         {
+            Id = id;
             Name = name;
             Symbol = symbol;
             UserId = userId;
         }
+
+        //[Key]
+        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
+        //public string Id { get; set; }
 
         public string Name { get; set; }
 

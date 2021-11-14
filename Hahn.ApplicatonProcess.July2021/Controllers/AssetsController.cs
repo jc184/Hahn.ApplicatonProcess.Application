@@ -77,7 +77,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// </summary>
         /// <response code="200">Asset updated</response>
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, int Id)
+        public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, string Id)
         {
             var assets = await _service.UpdateAsync(request, Id);
             return Ok(assets);
