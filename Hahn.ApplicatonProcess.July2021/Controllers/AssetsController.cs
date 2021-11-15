@@ -47,6 +47,10 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> Add([FromBody] AddAssetRequest request)
         {
             var assets = await _service.AddNewAsync(request);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
             return Ok(assets);
         }
 
@@ -80,6 +84,10 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, string Id)
         {
             var assets = await _service.UpdateAsync(request, Id);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
             return Ok(assets);
         }
     }

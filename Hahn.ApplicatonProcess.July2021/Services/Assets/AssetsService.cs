@@ -97,7 +97,6 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             var entity = await UnitOfWork.AsyncRepository<Asset>()
                                 .FindAsync(entity => entity.Id.Equals(Id));
 
-
             entity.Name = model.Name;
             entity.Symbol = model.Symbol;
             entity.UserId = model.UserId;
