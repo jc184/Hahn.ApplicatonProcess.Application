@@ -1,4 +1,7 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Base;
+using Hahn.ApplicatonProcess.July2021.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,5 +28,7 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Interfaces
         Task<T> FindAsync(Expression<Func<T, bool>> expression);
 
         Task<IEnumerable<T>> GetAllAsync<TProperty>(Expression<Func<T, TProperty>> include);
+
+        Task<EntityEntry<T>> AddIfNotExists<T>(DbSet<T> dbSet, T entity, Expression<Func<T, bool>> predicate = null) where T : class, new();
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Base;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -23,10 +24,6 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
             UserId = userId;
         }
 
-        //[Key]
-        //[DatabaseGenerated(DatabaseGeneratedOption.None)]
-        //public string Id { get; set; }
-
         public string Name { get; set; }
 
         public string Symbol { get; set; }
@@ -34,5 +31,9 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }
 
+        public static implicit operator DbSet<object>(Asset v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

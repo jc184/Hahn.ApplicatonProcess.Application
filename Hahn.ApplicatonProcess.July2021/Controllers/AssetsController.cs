@@ -36,6 +36,11 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> Get([FromQuery] GetAssetListRequest request)
         {
             var asset = await _service.SearchAsync(request);
+            if (asset == null)
+            {
+                _logger.LogInformation($"Asset doesn't exist in the database.");
+                return NotFound();
+            }
             return Ok(asset);
         }
 
@@ -43,14 +48,17 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// Creates a new asset
         /// </summary>
         /// <response code="201">Asset added</response>
+        /// <response code="400">Bad Request</response>
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] AddAssetRequest request)
         {
             var assets = await _service.AddNewAsync(request);
+            
             if (!ModelState.IsValid)
             {
                 return BadRequest();
             }
+            
             return Ok(assets);
         }
 
@@ -80,6 +88,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// Updates an asset
         /// </summary>
         /// <response code="200">Asset updated</response>
+        /// <response code="400">Bad Request</response>
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, string Id)
         {

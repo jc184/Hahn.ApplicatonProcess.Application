@@ -36,6 +36,11 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         public async Task<IActionResult> Get([FromQuery] GetUserRequest request)
         {
             var users = await _service.SearchAsync(request);
+            if (users == null)
+            {
+                _logger.LogInformation($"User doesn't exist in the database.");
+                return NotFound();
+            }
             return Ok(users);
         }
 

@@ -25,7 +25,7 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Base
 
     public abstract class BaseEntity<TKey> : BaseEntity
     {
-        [Key]
+        //[Key]
         public TKey Id { get; set; }
     }
 }
