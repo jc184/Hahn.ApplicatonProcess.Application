@@ -1,20 +1,14 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Domain.Interfaces;
 using Hahn.ApplicatonProcess.July2021.Web.DTOs.Assets;
-using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Hahn.ApplicatonProcess.July2021.Web.Extensions;
-using Microsoft.EntityFrameworkCore;
-using Hahn.ApplicatonProcess.July2021.Data;
 
 namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
 {
     public class AssetsService : BaseService
     {
-        private DbSet<Asset> _dbSet;
 
         public AssetsService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {

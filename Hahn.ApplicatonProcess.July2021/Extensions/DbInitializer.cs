@@ -1,6 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Data;
 using Hahn.ApplicatonProcess.July2021.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 
