@@ -87,7 +87,15 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
             })
             .ToList();
 
-            return userDTOs;
+            if (userDTOs.Count > 0)
+            {
+
+                return userDTOs;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public async Task<List<GetAllUsersResponse>> GetAllAsync()

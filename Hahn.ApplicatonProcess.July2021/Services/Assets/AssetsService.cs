@@ -67,18 +67,27 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             var assets = await repository
                 .ListAsync(_ => _.Symbol.Contains(request.Search));
 
-            var assetDTOs = assets.Select(_ => new AssetInfoDTO()
-            {
-                Id = _.Id,
-                AssetId = _.Asset_Id,
-                Name = _.Name,
-                Symbol= _.Symbol,
-                UserId  = _.UserId,
-            })
-            .ToList();
+                var assetDTOs = assets.Select(_ => new AssetInfoDTO()
+                {
+                    Id = _.Id,
+                    AssetId = _.Asset_Id,
+                    Name = _.Name,
+                    Symbol = _.Symbol,
+                    UserId = _.UserId,
+                })
+                .ToList();
 
-            return assetDTOs;
+            if (assetDTOs.Count > 0)
+            {
+
+                return assetDTOs;
+            }
+            else
+            {
+                return null;
+            }
         }
+            
 
         public async Task<DeleteAssetResponse> DeleteAsync(DeleteAssetRequest request)
         {
