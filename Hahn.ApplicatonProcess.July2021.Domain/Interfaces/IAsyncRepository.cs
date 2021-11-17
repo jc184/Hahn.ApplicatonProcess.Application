@@ -29,6 +29,6 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Interfaces
 
         Task<IEnumerable<T>> GetAllAsync<TProperty>(Expression<Func<T, TProperty>> include);
 
-        Task<EntityEntry<T>> AddIfNotExists<T>(DbSet<T> dbSet, T entity, Expression<Func<T, bool>> predicate = null) where T : class, new();
+        //EntityEntry<T> AddIfNotExists<T>(DbSet<T> dbSet, T entity, Expression<Func<T, bool>> predicate = null) where T : class, new();
     }
 }

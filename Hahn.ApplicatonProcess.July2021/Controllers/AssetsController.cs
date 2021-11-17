@@ -90,7 +90,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
         /// <response code="200">Asset updated</response>
         /// <response code="400">Bad Request</response>
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, string Id)
+        public async Task<IActionResult> Update([FromBody] UpdateAssetRequest request, int Id)
         {
             var assets = await _service.UpdateAsync(request, Id);
             if (!ModelState.IsValid)

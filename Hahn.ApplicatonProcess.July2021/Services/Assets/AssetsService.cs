@@ -16,9 +16,8 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
     {
         private DbSet<Asset> _dbSet;
 
-        public AssetsService(IUnitOfWork unitOfWork, EFDBContext dbContext) : base(unitOfWork)
+        public AssetsService(IUnitOfWork unitOfWork) : base(unitOfWork)
         {
-            _dbSet = dbContext.Set<Asset>();
         }
 
         public async Task<AddAssetResponse> AddNewAsync(AddAssetRequest model)
@@ -31,13 +30,15 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
 
             var repository = UnitOfWork.AsyncRepository<Asset>();
 
-            await repository.AddIfNotExists(_dbSet, asset, x => x.Id == model.AssetId);
+            //await repository.AddIfNotExists(_dbSet, asset, x => x.Id == model.AssetId);
+            await repository.AddAsync(asset);
 
             await UnitOfWork.SaveChangesAsync();
 
                 var response = new AddAssetResponse()
                 {
                     Id = asset.Id,
+                    AssetId = asset.Asset_Id,
                     Name = asset.Name,
                     Symbol = asset.Symbol,
                     UserId = asset.UserId,
@@ -56,6 +57,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             var assetDTOs = assets.Select(_ => new AssetInfoDTO()
             {
                 Id = _.Id,
+                AssetId= _.Asset_Id,
                 Name = _.Name,
                 Symbol = _.Symbol,
                 UserId = _.UserId
@@ -74,6 +76,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             var assetDTOs = assets.Select(_ => new AssetInfoDTO()
             {
                 Id = _.Id,
+                AssetId = _.Asset_Id,
                 Name = _.Name,
                 Symbol= _.Symbol,
                 UserId  = _.UserId,
@@ -94,6 +97,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             var response = new DeleteAssetResponse()
             {
                Id = asset.Id,
+               AssetId = asset.Asset_Id,
                Name = asset.Name,
                Symbol = asset.Symbol,
                UserId = asset.UserId,
@@ -102,11 +106,12 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             return response;
         }
 
-        public async Task<UpdateAssetResponse> UpdateAsync(UpdateAssetRequest model, string Id)
+        public async Task<UpdateAssetResponse> UpdateAsync(UpdateAssetRequest model, int Id)
         {
             var entity = await UnitOfWork.AsyncRepository<Asset>()
-                                .FindAsync(entity => entity.Id.Equals(Id));
+                                .FindAsync(entity => entity.Id == Id);
 
+            entity.Asset_Id = model.AssetId;
             entity.Name = model.Name;
             entity.Symbol = model.Symbol;
             entity.UserId = model.UserId;
@@ -119,6 +124,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
             var response = new UpdateAssetResponse()
             {
                 Id = entity.Id,
+                AssetId = model.AssetId,
                 Name = entity.Name,
                 Symbol = entity.Symbol,
                 UserId = entity.UserId,

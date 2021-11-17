@@ -10,19 +10,21 @@ using System.Threading.Tasks;
 
 namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
 {
-    public class Asset : BaseEntity<string>
+    public class Asset : BaseEntity<int>
     {
         public Asset()
         {
         }
 
-        public Asset(string id, string name, string symbol, int userId)
+        public Asset(string assetId, string name, string symbol, int userId)
         {
-            Id = id;
+            Asset_Id = assetId;
             Name = name;
             Symbol = symbol;
             UserId = userId;
         }
+
+        public string Asset_Id { get; set; }
 
         public string Name { get; set; }
 
@@ -31,9 +33,5 @@ namespace Hahn.ApplicatonProcess.July2021.Domain.Entities
         [ForeignKey(nameof(User))]
         public int UserId { get; set; }
 
-        public static implicit operator DbSet<object>(Asset v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

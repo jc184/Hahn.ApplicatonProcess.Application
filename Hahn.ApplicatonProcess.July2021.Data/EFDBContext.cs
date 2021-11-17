@@ -21,7 +21,9 @@ namespace Hahn.ApplicatonProcess.July2021.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<User>().HasMany(s => s.Assets);
+            modelBuilder.Entity<Asset>().HasKey(a => a.Id );
         }
+
 
     }
 }
