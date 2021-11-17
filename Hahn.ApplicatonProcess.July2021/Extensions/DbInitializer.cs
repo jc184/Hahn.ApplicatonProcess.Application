@@ -67,6 +67,28 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                             Email = "john.bloggs321@gmail.com"
                         };
                         context.Users.Add(user3);
+
+                        var user4 = new User()
+                        {
+                            Id = 4,
+                            FirstName = "michel",
+                            LastName = "dupont",
+                            Age = 32,
+                            Address = "21 Rue Napoleon, Paris, P23 6TF",
+                            Email = "michel.dupont123@wanadoo.com"
+                        };
+                        context.Users.Add(user4);
+
+                        var user5 = new User()
+                        {
+                            Id = 5,
+                            FirstName = "angela",
+                            LastName = "smith",
+                            Age = 36,
+                            Address = "45 Dumbarton Road, Glasgow, G3 5TY",
+                            Email = "angela.smith@yahoo.com"
+                        };
+                        context.Users.Add(user5);
                     }
 
                     // Add sample assets
@@ -101,6 +123,26 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Extensions
                             UserId = 2
                         };
                         context.Assets.Add(asset3);
+
+                        var asset4 = new Asset()
+                        {
+                            Id = 4,
+                            Asset_Id = "solana",
+                            Name = "Solana",
+                            Symbol = "SOL",
+                            UserId = 3
+                        };
+                        context.Assets.Add(asset4);
+
+                        var asset5 = new Asset()
+                        {
+                            Id = 5,
+                            Asset_Id = "cardano",
+                            Name = "Cardano",
+                            Symbol = "ADA",
+                            UserId = 4
+                        };
+                        context.Assets.Add(asset5);
                     }
 
                     context.SaveChanges();
