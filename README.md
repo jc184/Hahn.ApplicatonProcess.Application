@@ -7,3 +7,4 @@ To run the WebAPI project in Visual Studio, simply select the Docker Compose run
 (green arrow). For this to work Docker must be installed on the host computer. Alternatively, select the web project 
 configuration and run the project without Docker. The application will then open a browser window and Swagger will then 
 be available to the user.
+There you can create, read, update and delete Users and Assets using the Swagger UI Get, Post, Update and Delete links.
