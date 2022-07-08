@@ -1,7 +1,6 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Domain.Interfaces;
 using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -121,7 +120,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Users
 
         public async Task<DeleteUserResponse> DeleteAsync(DeleteUserRequest request)
         {
-             
+
             var repository = UnitOfWork.AsyncRepository<User>();
             var user = await repository.GetAsync(_ => _.Id.Equals(request.Id));
             var users = await repository.DeleteAsync(user);

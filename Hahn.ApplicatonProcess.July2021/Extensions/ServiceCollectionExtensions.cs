@@ -1,7 +1,6 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Data;
 using Hahn.ApplicatonProcess.July2021.Data.Repositories;
 using Hahn.ApplicatonProcess.July2021.Domain.Assets;
-using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Domain.Interfaces;
 using Hahn.ApplicatonProcess.July2021.Domain.Users;
 using Hahn.ApplicatonProcess.July2021.Web.Services.Assets;

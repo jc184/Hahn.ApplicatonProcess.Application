@@ -1,6 +1,5 @@
 ﻿using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
 using Hahn.ApplicatonProcess.July2021.Web.Services.Users;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
@@ -71,7 +70,7 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Controllers
             return Ok(users);
         }
 
-        
+
 
         /// <summary>
         /// Deletes a user

@@ -24,7 +24,6 @@ namespace Hahn.ApplicatonProcess.July2021.Web.Services.Assets
 
             var repository = UnitOfWork.AsyncRepository<Asset>();
 
-            //await repository.AddIfNotExists(_dbSet, asset, x => x.Id == model.AssetId);
             await repository.AddAsync(asset);
 
             await UnitOfWork.SaveChangesAsync();
