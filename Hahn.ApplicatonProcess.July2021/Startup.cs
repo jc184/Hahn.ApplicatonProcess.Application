@@ -1,8 +1,5 @@
-using FluentValidation;
 using FluentValidation.AspNetCore;
-using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Web.Extensions;
-using Hahn.ApplicatonProcess.July2021.Web.Validators;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;

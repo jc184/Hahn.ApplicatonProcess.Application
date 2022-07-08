@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Hahn.ApplicatonProcess.July2021.Domain.Entities;
 using Hahn.ApplicatonProcess.July2021.Web.DTOs.Users;
 
 namespace Hahn.ApplicatonProcess.July2021.Web.Validators
